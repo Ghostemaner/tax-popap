@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tax-popap/static/css/main.3be20c49.chunk.css",
+    "main.css": "/tax-popap/static/css/main.86d060a4.chunk.css",
     "main.js": "/tax-popap/static/js/main.69136481.chunk.js",
     "main.js.map": "/tax-popap/static/js/main.69136481.chunk.js.map",
     "runtime-main.js": "/tax-popap/static/js/runtime-main.f80b737f.js",
@@ -10,7 +10,7 @@
     "static/js/3.2f63cd88.chunk.js": "/tax-popap/static/js/3.2f63cd88.chunk.js",
     "static/js/3.2f63cd88.chunk.js.map": "/tax-popap/static/js/3.2f63cd88.chunk.js.map",
     "index.html": "/tax-popap/index.html",
-    "static/css/main.3be20c49.chunk.css.map": "/tax-popap/static/css/main.3be20c49.chunk.css.map",
+    "static/css/main.86d060a4.chunk.css.map": "/tax-popap/static/css/main.86d060a4.chunk.css.map",
     "static/js/2.ab15a148.chunk.js.LICENSE.txt": "/tax-popap/static/js/2.ab15a148.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/tax-popap/static/media/checked-arrow.62a8ceae.svg",
     "static/media/close-button.5cfd960d.svg": "/tax-popap/static/media/close-button.5cfd960d.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f80b737f.js",
     "static/js/2.ab15a148.chunk.js",
-    "static/css/main.3be20c49.chunk.css",
+    "static/css/main.86d060a4.chunk.css",
     "static/js/main.69136481.chunk.js"
   ]
 }
