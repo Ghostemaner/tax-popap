@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useHistory } from "react-router";
 
-function App() {
+export default function App() {
+
+const history = useHistory()
+const handleGoTaxDeduction = () => {
+  history.push('tax-deduction')
+}
+
+let disabled = false;
+const handleDisabled = (e) => {
+  e.target.disabled = true;
+}
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-modal-popap">
+      <span className='tax-button-gradient'><button disabled={disabled} onClick={handleDisabled} onClick={handleGoTaxDeduction} className='tax-button'>Налоговый вычет</button></span>
     </div>
   );
 }
 
-export default App;
+

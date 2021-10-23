@@ -1,0 +1,56 @@
+button, label{
+    cursor: url('../icons/Pointer.png'), pointer;
+}
+.main-modal-popap{
+    font-size: 12px;
+    font-family: 'Lab Grotesque', sans-serif;
+    font-weight: 500;
+    border-radius: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    box-shadow: 0px -0.11px 16.9495px rgba(183, 187, 225, 0.33);
+    border-radius: 0px;
+    font-family: 'Lab Grotesque';
+    
+}
+
+.tax-button {
+    min-width: 149px;
+    height: 40px;
+    padding: 12px 24px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    background: transparent;
+    border-radius: 6px;
+    background: none;
+}
+
+.tax-button:hover {
+    color: black;
+    background-color: #E5E5E5;
+    
+    
+}
+
+.tax-button-gradient {
+    border-radius: 0;
+    
+}
+
+.route-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    box-shadow: 0px -0.11px 16.9495px rgba(183, 187, 225, 0.33);
+}
